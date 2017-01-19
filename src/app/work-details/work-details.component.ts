@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectsService } from '../work/projects.service';
+import { Project } from '../work/project';
+import { PROJECTS } from '../work/mock-projects';
+import { RouterModule, Routes }  from '@angular/router';
 
 @Component({
   selector: 'app-work-details',
@@ -7,9 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkDetailsComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit() {
+
+
+  ngOnInit(): void {
+
   }
 
 }
